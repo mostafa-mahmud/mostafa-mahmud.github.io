@@ -1,0 +1,195 @@
+
+/*nav*/
+header> nav																					{	height:100px;	transition:all 1s ease-in-out;	width:100%;	overflow: hidden;	text-transform:uppercase;	position: absolute;	z-index:2000;	top:0px;}
+header> nav> div.container																	{	transition:all 1s ease-in-out;	height:100%;	max-width:1238px;}
+header> nav> div.container> a> img															{	height:80px;	float:left;	margin-top:5px;	margin-left:30px;}
+header> nav> div.container> ul																{	height:100%;	float:left;	margin-left:30px;	padding-top:30px ;}
+header> nav> div.container> ul li															{	float:left;	list-style-type:none;	text-align:center;	padding:10px;	margin:5px;			transition:all .5s ease-in-out;}
+header> nav> div.container> ul:first-of-type> li:last-of-type								{	margin-left: 20px}
+header> nav> div.container> ul> li.active a													{	color:#ffc536;}
+header> nav> div.container> ul> li:hover													{	cursor:pointer;}
+header> nav> div.container> ul> li:hover a													{	color:#ffc536;}
+header> nav> div.container> ul:first-of-type												{	text-transform:uppercase;	font-size:.7em;}
+header> nav> div.container> ul:last-of-type													{	text-transform:capitalize;	float:right;	font-size:.7em;}
+header> nav> div.container> ul:last-of-type> li												{	padding:15px; }
+header> nav> div.container> ul:last-of-type> li:nth-child(4)								{	padding-right:20px;	padding-left:20px; border-radius:20px; }
+header> nav> div.container> ul:last-of-type> li:nth-child(4) a								{	color:#fff; }
+header> nav> div.container> ul:last-of-type> li:nth-child(2):hover a						{	color:#000; }
+header> nav> div.container> ul:last-of-type> li:last-of-type								{	display: none; border:none;	padding:5px;}
+header> nav> div.container> ul:last-of-type> li button										{	cursor: pointer;	width:40px;	background-color:transparent;	border:none;;}
+header> nav> div.container> ul:last-of-type> li button> span								{	transition:all 3s ease-in-out;	width:60%;	color:#fff;	display:block; margin:5px auto;	border:1px solid #fff;	border-radius:50px;}
+/*nav*/
+/*scroll*/
+header main.scroll																			{	background-image:url(https://lh3.google.com/u/0/d/1TtDL0wLTFE5DYPV5sCWHPhmtkARabMbS=w1366-h626-iv1);background-size:cover;	background-position: center;	height:500px;	overflow: hidden;}
+header main.scroll> .scroll-back															{	height:100%;	width:100%;	overflow: hidden;}
+header main.scroll> .scroll-back> .container												{	height:100%;}
+header main.scroll> .scroll-back> .container> div											{	width:40%;		}
+header main.scroll> .scroll-back> .container> div:first-of-type								{	width:40%;	float:left;	margin-top:70px;}
+header main.scroll> .scroll-back> .container> div:first-of-type> ul							{	overflow: hidden; list-style-type: none;	width:70%;	margin:auto;}
+header main.scroll> .scroll-back> .container> div:first-of-type> ul li						{	font-size:.7em;transition:all .5s ease-in-out;	margin-top:20px;	margin-bottom:20px;	width:50%;	float:left;	padding-top:10px;	padding-bottom:10px;	text-align: center;	color: #fff;}
+header main.scroll> .scroll-back> .container> div:first-of-type> ul li.active				{	color:#ffc536;	border-bottom:2px solid #ffc536;}
+header main.scroll> .scroll-back> .container> div:first-of-type> ul li:hover				{	cursor:pointer;}
+header main.scroll> .scroll-back> .container> div:first-of-type div							{	border-radius:10px;transition:all .5s ease-in-out;	background-color:#384266;	width:70%;	padding:10px; margin:auto;}
+header main.scroll> .scroll-back> .container> div:first-of-type div:last-of-type			{	display: none;}
+header main.scroll> .scroll-back> .container> div:first-of-type div> ul						{	width:100%;	list-style-type: none;}
+header main.scroll> .scroll-back> .container> div:first-of-type div> ul li					{	margin-top:10px;	margin-bottom:10px;	width:100%;}
+header main.scroll> .scroll-back> .container> div:first-of-type div ul li select,
+header main.scroll> .scroll-back> .container> div:first-of-type div ul li input,
+header main.scroll> .scroll-back> .container> div:first-of-type div ul li button			{	padding:7px;	width:100%;}
+header main.scroll> .scroll-back> .container> div:first-of-type div ul li select			{	font-size:1em;	color:#98a0ba;}
+header main.scroll> .scroll-back> .container> div:first-of-type div ul li select option		{	font-size: 1.2em}
+header main.scroll> .scroll-back> .container> div:first-of-type div ul li input				{	color:#6c4e05;}
+header main.scroll> .scroll-back> .container> div:first-of-type div ul li input::placeHolder{	color:#b9b7b7;}
+header main.scroll> .scroll-back> .container> div:first-of-type div ul li button			{	font-size:1em;	background-color: #ffc536;}
+header main.scroll> .scroll-back> .container> div:first-of-type div ul li button			{	color:#fff;	border-color:#ffc536 #f5d075;}
+header main.scroll> .scroll-back> .container> div:first-of-type div ul li button:active,
+header main.scroll> .scroll-back> .container> div:first-of-type div ul li button:focus		{	outline:none;}
+header main.scroll> .scroll-back> .container> div:nth-of-type(2)							{	width:51%;	float:left; margin-top:200px;}
+header main.scroll> .scroll-back> .container> div> h1,
+header main.scroll> .scroll-back> .container> div> p,
+header main.scroll> .scroll-back> .container> div> button,
+header main.scroll> .scroll-back> .container> div> span										{	color:#fff;	display:block;	margin:18px auto;	text-align:center;}
+header main.scroll> .scroll-back> .container> div> h1										{	color:#ffc536;	font-size:3em;}
+header main.scroll> .scroll-back> .container> div> p										{	font-size:1.5em;}
+header main.scroll> .scroll-back> .container> div> p										{	margin-bottom:0px;}
+header main.scroll> .scroll-back> .container> div:last-child								{	float:left;	margin-top:0px; width:100%;	}
+header main.scroll> .scroll-back> .container> div:last-child> span							{	border:1px solid #fff;	width:50px;	height:50px;	line-height: 3;	border-radius:50%;	border:1px solid #fff;}
+header main.scroll> .scroll-back> .container> div:last-child> span:hover					{	cursor: pointer;}
+header main.scroll> .scroll-back> .container> div:last-child> span i						{	transition:all 1s ease-in-out;}
+/*scroll*/
+
+.seller,
+.top-companies,
+.top-spare> div																				{	padding-top:50px;padding-bottom:50px;}
+.seller a,
+.top-companies a,
+.top-spare a																				{	color:#1a1a50;	text-align: right;	display:block;	margin-top:15px;}
+
+/*the seller*/
+.seller																						{	position:relative;padding-bottom:0px;	background-color:#eee;}
+.seller> .container																			{	width:70%;}
+.seller> .container h2																		{	padding-bottom:50px;}
+.seller> .container span.before,
+.seller> .container span.after																{	cursor: pointer;position:absolute;top:250px;display: block;width:50px;height:50px;border:2px solid #1a1a50;border-radius:50px;  content:"";background-image: url(arrow_left.png);background-size: 30px;background-position: center center;background-repeat:no-repeat;}
+.seller> .container span.before																{	left:100px;}
+.seller> .container span.after																{	right:100px;transform:rotate(180deg)}
+.seller> .container> div> div.two 															{	display: none;}
+.seller> .container> div> div> div															{	height:290px;	float:left;	box-shadow:1px 1px 5px #333; padding:10px;	background-color:#fff;	width:23%; margin:1%;}
+.seller> .container> div> div> div> img														{	max-height:60%; margin:10px auto;display: block;	width:80%;}
+.seller> .container> div> div> div> h3														{	color: #4e4e84;	text-align: left;	font-weight: 100;}
+.seller> .container> div> div> div> p														{	border-bottom:1px solid rgba(164, 164, 193, 0.23);	padding-bottom:5px;	color: #a4a4c1}
+.seller> .container> div> div> div> h2														{	padding-bottom:10px;	font-size:18px;	margin-top:15px;	width:50%;	float:left;	text-align:left;}
+.seller> .container> div> div> div> button													{	margin-top:10px;	padding:10px;	width:48%;	float:right;}
+/*the seller*/
+
+/*top companies*/
+.top-companies																				{	background-color:#eee;}
+.top> div																					{	width:100%;	height:100%;}
+.top> div> .container																		{	width:70%;}
+.top> div> .container> h2																	{	font-weight:bold;	padding:20px;	padding-bottom:50px;}
+.top> div> .container> div> div																{	box-shadow:1px 1px 5px #333;	padding:20px; margin:1%; background-color:#fff;	width:23%;	float:left;}
+.top> div> .container> div> div> img														{	display:block;	width:90%;	height:130px;	min-height:100px;	margin:auto;}
+.top> div> .container> div> div> h3															{	padding-top:10px;}
+/*top companies*/
+
+/*top spare*/
+.top-spare																					{	background-image:url(https://s3.amazonaws.com/external_clips/attachments/2015419/original/black-and-white-car-engine-chrome-190574.jpg?1533185472);	background-size:cover;}
+.top-spare> div																				{	background-color: rgba(0, 0, 0, 0.5);}
+.top-spare> div> .container> h2																{	color:#fff;}
+.top-spare> div> .container> div															{	color:#fff;}
+.top-spare> div> .container> div> div> img													{	height:170px;}
+/*top spare*/
+
+/*fotter*/
+footer																						{	background-color:#303030;	color:#fff;	padding-top:50px;}
+footer ul li																				{	padding-top:5px;	padding-bottom:5px;	margin-top:5px;	margin-bottom:5px;	list-style-type:none;}
+footer ul li,
+footer p																					{	color:#f3f3f3;	font-size:.7em;}
+footer h3,footer h5																			{	color:#fff;	padding-top:15px;	padding-bottom:15px;}
+footer> div.first> div.container> div														{	float:left;	width:50%;}
+footer> div.first> div.container> div:first-of-type> div									{	width:95%;	margin: auto;	}
+footer> div.first> div.container> div:first-of-type> div> img								{	width:40%;display: block;		}
+footer> div.first> div.container> div:first-of-type> div> aside								{	width:31%;	margin-top:20px;	margin-bottom:20px;	float:left;	}
+footer> div.first> div.container> div:first-of-type> div> aside:first-of-type				{	margin-right:5px;	}
+footer> div.first> div.container> div:first-of-type> div> aside:first-of-type ul li i		{	padding-right:5px;}
+footer> div.first> div.container> div:last-of-type> div										{	width:50%;	margin: auto;	margin-top:10px;	margin-bottom:10px;		}
+footer> div.first> div.container> div:last-of-type> div h3									{	text-align: left;	}
+footer> div.first> div.container> div:last-of-type> div> p									{	font-size:.8em;		}
+footer> div.first> div.container> div:last-of-type> div> div> select						{	width:75%;	padding:5px;	}
+footer> div.first> div.container> div:nth-of-type(2)										{	display:none;}
+footer> div.first> div.container> div:last-of-type p										{	padding-top:10px;	padding-bottom:30px;}
+footer> div.last 																			{	border-top:1px solid rgba(204, 204, 204, 0.1)}
+footer> div.last> .container 																{	width:95%;}
+footer> div.last> div.container> ul															{	width:50%;	float:left;	padding:5px;}
+footer> div.last> div.container> ul li														{	font-size:1.2em;	float:left;	margin-left:5px;	margin-right:5px;}
+footer> div.last> div.container> div.copy													{	width:50%;	float:right;	padding:20px;	text-align:right;}
+footer> div.last> div.container> div.copy> p												{	font-size: 10px;	font-weight:100;}
+/*fotter*/
+
+@media (min-width:992px) and (max-width:1199px){
+	header> nav																				{	height:100px;}
+}
+@media (min-width:767px) and (max-width:991px){
+	header> nav> div.container> ul:last-of-type> li button									{	position: absolute;	top:15px;	right:30px;}
+	header> nav> div.container> a> img														{	position:absolute;	left:30px;}
+}
+@media (max-width:991px){
+	/*nav*/
+	header> nav> div.container> a> img														{	position:absolute;	left:10px;}
+	header main.scroll> .scroll-back> .container> div:nth-of-type(2)						{	width:60%;	float:left; margin-top:100px;}
+	header> nav> div.container> ul															{	margin-top:200px;	width:30%;	height:60px;	float:left;}
+	header> nav> div.container> ul li														{	float:none;	border:1px solid #ffc536;	border-radius:10px;	transition:all .5s ease-in-out;}
+	header> nav> div.container> ul li:hover													{	background:#ffc536;}
+	header> nav> div.container> ul li:hover a												{	color:black;}
+	header> nav> div.container> ul:first-of-type>											{	width:50%;float:left;}
+	header> nav> div.container> ul:first-of-type> li:last-of-type							{	margin-left: 5px}
+	header> nav> div.container> ul:last-of-type												{	float:right;	margin-right: 30px}
+	header> nav> div.container> ul:last-of-type li											{	text-align: center;}
+	header> nav> div.container> ul:last-of-type> li:last-of-type							{	display: block;	width:auto;	padding:5px;	position: absolute;	top:20px;	right:15px;}
+	header> nav> div.container> ul:last-of-type> li:last-of-type:hover span					{	border-color: #ffc536;}	
+	/*nav*/
+	/*scoll*/
+	header main.scroll																		{	height:500px}
+	/*scoll*/
+	/*seller*/
+	.seller> .container span.before,
+	.seller> .container span.after															{	top:50px;}
+	.seller> .container> div> div> div														{	max-height:300px;	width:48%;}
+	/*seller*/
+	/*top*/ 
+	.top> div> .container> div> div															{	height:250px; margin:1%; background-color:#fff;	width:48%;	float:left;}
+	.top> div> .container> div> div> img													{	min-height:80%;}
+	/*top*/
+	
+	/*fotter*/
+	footer> div.first> div.container> div													{	width:95%;}
+	footer> div.first> div.container> div:nth-of-type(2)									{	display:block;}
+	footer> div.first> div.container> div													{	text-align: center;	float:none;	min-width:130px;	margin:auto;	display:block;}
+	footer> div.first> div.container> aside													{	text-align: center; min-width:33%;}
+	footer> div.first> div.container> div:last-child										{	margin:0px auto;	display: block;	width:100%;	text-align: center;}							
+	footer> div.first> div.container> div:last-of-type> div h3								{	text-align: center;	}
+	footer> div.first> div.container> div:last-child> div:first-child						{	width:100%;	}							
+	footer> div.first> div.container> div:last-child> div:first-child select				{	width:40%;	}							
+	/*fotter*/
+}
+@media (max-width:768px){
+	/****************************************************/
+	header> .slides> div.slide_container section> div.container> h2							{	width:100%;}
+	/**********************soots***************************************/
+	/*scroll*/
+	header main.scroll																		{	height:600px;	overflow: hidden;}
+	header main.scroll> .scroll-back> .container> div:first-of-type							{	width:60%;	margin-top:70px;}
+	header main.scroll> .scroll-back> .container> div:nth-of-type(2)						{	width:40%;	}
+	header main.scroll .container> img														{	margin-top:90px;}
+	header main.scroll .container> span														{	margin-top:50px;}
+	/*scroll*/
+	/*seller*/
+	.seller> .container> div> div> div														{	max-height:500px;	margin-bottom:30px;  float:none;	width:100%;}
+	/*seller*/
+	/*top*/ 
+	.top> div> .container> div> div															{	height:300px;	margin:1%; background-color:#fff;	width:100%;	float:left;}
+	.top> div> .container> div> div> img													{	height:80%;	min-height:150px;}
+	/*top*/
+
+}
+	/*************************************************************/
