@@ -2,6 +2,7 @@
   "name": "my-first-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage":"http://mostafa-mahmud.github.io/blob/master/public/index.html",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
